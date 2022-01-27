@@ -1,0 +1,148 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+/* h1 {
+    padding:8px;
+    background-color: rgba(250,0,0.8);
+    border-radius: 8px;
+    margin:0px;
+    font-size: 64px;
+    font-family: 'Roboto Slab';
+}
+-- H1 is not in the index, im using h2's
+*/
+
+p{
+    line-height: 1.5;
+}
+
+main{
+    margin:0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/* Banner Styling */
+#banner{
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(0,0,0,0.2) url("img/wooo.png");
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-blend-mode: overlay;
+    color:white;
+}
+
+/* Navigation */
+nav {
+    background-color: white;
+    width:100%;
+    margin:0;
+    position: fixed;
+    font-family: 'Roboto Condensed', sans-serif ;
+    font-size:20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px 0 0;
+    box-sizing: border-box;
+    z-index: 100;
+    
+}
+
+nav a{
+    padding: 0 32px;
+    color: black;
+    transition: 0.4s;
+}
+
+nav a:hover{
+    text-decoration: none;
+    color: blue;
+
+}
+
+nav ul{
+    white-space: nowrap;
+    display:flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    height: 50%;
+    width:50%;
+    margin:27px;
+}
+
+#logo-img{
+    display: flex;
+    height: 100%;
+    background:white;
+    padding: 0 10px;
+    align-items: center;
+    color:white;
+    transition:.4s;
+}
+
+#logo-img img{
+    height:80px;
+}
+
+#menu-icon {
+    height:s;
+    font-size: 28px;
+    padding: 0 4px;
+    color:black;
+    display:flex;
+    margin-top: 27px;
+}
+
+#slideout-menu{
+    display:none;
+    float: right;
+    width: 20px;
+    padding-left: 100px;
+}
+
+/* This is for the |home hompage > bedrijfsuitje| */
+.Menutab{
+    color: #707070;
+    font-weight: 900;
+    white-space: nowrap;
+    list-style: none;
+    display:inline;
+}
+main ul{
+    display: inline-block;
+}
+
+/* Card */
+.card .card-description {
+    padding: 0 8px;
+}
+
+/* Media Querries */
+@media(min-width:720px){
+    main{
+        width:95%;
+    }
+
+    .card {
+        width: 45%
+    }
+
+    .card .card-image img {
+        width: 100%;
+    }
+}
