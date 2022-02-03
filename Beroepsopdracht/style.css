@@ -3,17 +3,6 @@ body {
     margin: 0;
 }
 
-/* h1 {
-    padding:8px;
-    background-color: rgba(250,0,0.8);
-    border-radius: 8px;
-    margin:0px;
-    font-size: 64px;
-    font-family: 'Roboto Slab';
-}
--- H1 is not in the index, im using h2's
-*/
-
 p{
     line-height: 1.5;
 }
@@ -28,7 +17,7 @@ a{
 }
 
 a:hover{
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 h2{
@@ -38,7 +27,7 @@ h3{
     font-size:40px;
 }
 h4{
-    font-size:35px;
+    font-size:30px;
 }
 
 p{
@@ -52,7 +41,7 @@ p{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background: rgba(0,0,0,0.2) url("img/wooo.png");
+    background: rgba(0,0,0,0.2) url("");
     background-size:cover;
     background-attachment: fixed;
     background-position: center;
@@ -179,6 +168,7 @@ main ul{
 }
 
 
+
 /* Media Querries */
 
 @media (max-width:900px){
@@ -194,6 +184,34 @@ main ul{
         display: block;
     }
 }
+.inst-btn {  
+    height: 70px;
+    width: 320px; 
+    margin: 60px 0 0 320px; 
+    background-color:rgb(155,234,252);
+    border-radius: 100px;
+    box-sizing: border-box;
+    outline: 0;  
+  }
+  .inst-btn{ 
+    font-size: 20px; 
+    color: black; 
+    padding: 5px; 
+    margin: 0; 
+    font-family: 'Roboto Condensed' sans-serif; 
+    border: 0; 
+  }
+  .wrapper:before,.wrapper:after{
+    content:" ";
+    width: 500px;
+    height: 2px;
+    margin: 0 10px;
+    vertical-align: super;
+    background-color:grey;
+    display:inline-block;
+  }
+  
+/* ------------------------------- */
 
 
 @media(min-width:720px){
@@ -233,15 +251,45 @@ main ul{
         padding-top: 120px;
     }
     .card-three li i {
-        padding: 3px;
+        padding: 10px;
+        content: 100px;
+        list-style-type: none;
+
     }
+}
+
+
+.socials p{
+    font-size: 25px;
+    padding: 5px;
 }
 
 .footerone{
     background:black;
-    padding:8px;
+    padding:10px;
+    margin-right: 150px;
+    margin-left: 150px;
     color:#eee;
     display: flex;
+    border-radius: 8px;
+
+
+}
+
+#left-footer h1{
+    font-size: 50px;
+    color: rgb(155,234,252);
+}
+#right-footer h1{
+    font-size: 18px;
+    color: rgb(155,234,252);
+    padding-left: 14px;
+    
+}
+#right-footer img{
+    max-width: 100%;
+    height: auto;
+    width: 80%;
 }
 
 .footerone a {
@@ -256,4 +304,30 @@ main ul{
 
 .footerone #right-footer{
     flex:2;
+    padding-top: 24px;
+    padding-left:50px;
+}
+
+.footertwo{
+    background-color: white;
+    margin-top: 60px;
+    position: relative;
+    width: calc(99.324vw - 10px);
+    margin-left: calc(-49.78vw + 5px);
+    left: 50%;
+    border: 2px solid black;
+}
+.footertwo ul li{
+    padding: 10px;
+    list-style-type: none;
+    white-space: nowrap;
+    display:inline;
+    text-decoration: underline;
+}
+.footertwo img{
+    margin-top: 1%;
+    width:20%;
+    padding: 0;
+    position:absolute;
+    right:20px;
 }
