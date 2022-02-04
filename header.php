@@ -1,16 +1,31 @@
 <!DOCTYPE html>
-<html <?php language_attributes(); ?>>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="<?php bloginfo( 'charset' ); ?>">
-    <title><?php bloginfo( 'name' ); ?></title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <?php wp_head() ?>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <?php wp_head(); ?>
+    <title>ArtShop</title>
 </head>
+<body>
+    <div id="slideout-menu">
+        <ul>
+            <li><a href="#"><img src="img/eyemenu.png" alt="EyeMuseum menu"></a></li>
+        </ul>
+    </div>
 
-<body <?php body_class(); ?>>
-<div class="container">
+    <nav>
+        <div id="logo-img">
+            <a href="#">
+                <img src="img/logo.png" alt="EyeMuseum Logo">
+            </a>
+        </div>
+        <ul>
+            <li><div><button class="inst-btn-ban" type="button" onclick="window.location.href='reservering2.html'">Boek nu</button></div></li>
+            <li><a href="#">NL/EN</a></li>
+        </ul>
+        <div id="menu-icon">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>

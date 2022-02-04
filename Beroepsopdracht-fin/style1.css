@@ -1,0 +1,136 @@
+html { font-size: 22px;
+}
+
+body { 
+    font-family: 'Poppins', sans-serif;
+    margin: 0; 
+    width: 100%;
+    height: 100%;;
+}
+
+.eye{
+    margin-top: 15px;
+    width: 12fr;
+}
+
+li{
+    list-style-type: none;
+}
+
+ul{
+    display: inline-block;
+}
+
+.right{
+    float: right;
+}
+
+.MenuIcon{
+    box-shadow: 5px 10px #888888;
+    background-color: #fff;
+    padding-right: 10fr;
+    float: right;
+    background-color: #fff;
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 100%;
+}
+
+.backgroundbutton{
+    margin-right: 20px;
+    float: right;
+    padding-right: 10fr;
+    background-color: #000;
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+}
+
+.backgroundbutton2{
+    margin-right: 20px;
+    text-align: center;
+    background-color: #000;
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    width: 20%;
+    cursor: pointer;
+}
+
+.logos{
+    margin-right: 20px;
+    float: right;
+}
+
+.Menutab{
+    color: #707070;
+    font-weight: 900;
+}
+
+.arrow{
+    color: black !important;
+    font-weight: 900;
+}
+
+.titel{
+    color: #000;
+    font-weight: 900;
+    font-size: 4fr;
+    padding-left: 4%;
+}
+
+.Small{
+    font-size: 15px;
+    padding-left: 11vw;
+    text-align: left;
+}
+
+.line{
+    border-top: 1px solid black;
+    font-size: 5px;
+}
+
+.privacy{
+    font-weight: 500;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.card2{
+    text-align: center;
+    width: 60%;
+}
+
+.card {
+  color: white;
+  height: 100%;
+  width: 940px;
+}
+
+.cards {
+    margin: 0 auto;
+    display: grid;
+  }
+
+  @media (min-width: 600px) {
+    .cards { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  @media (min-width: 900px) {
+    .cards { grid-template-columns: repeat(3, 1fr); }
+  }
