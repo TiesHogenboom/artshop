@@ -10,7 +10,7 @@
 
                         <div id="right-footer">
                             <h1>Ik ben geïnteresseerd in</h1>
-                            <img src="img/eyefoot.png" alt="Subscribe to our newsletter">
+                            <img src="<?php echo get_template_directory_uri()?>/img/eyefoot.png" alt="Subscribe to our newsletter">
                         </div>
                     </div>
                     <div class="footertwo">
@@ -22,13 +22,12 @@
                                 Privacy
                             </li></a>
                         </ul>
-                        <img src="img/sponsoreye.png" alt="Sponsors">
+                        <img src="<?php echo get_template_directory_uri()?>/img/sponsoreye.png" alt="Sponsors">
                     </div>
                 </footer>
 
  
     </main>
-    <script src="main.js"></script>
     <?php wp_footer(); ?>
 </body>
 </html>

@@ -29,7 +29,7 @@
                 </div>
                 <div class="card-image">
                     <a href="#">
-                        <img src="img/1.png" alt="Card Image">
+                        <img src="<?php echo get_template_directory_uri()?>/img/1.png" alt="Card Image">
                     </a>
                 </div>
 
@@ -40,7 +40,7 @@
             <div class="card-two">
                 <div class="card-image">
                     <a href="#">
-                        <img src="img/2.png" alt="Card Image">
+                        <img src="<?php echo get_template_directory_uri()?>/img/2.png" alt="Card Image">
                     </a>
                 </div>
 
@@ -72,15 +72,15 @@
         <div class="container">
             <div class="Block1">
                 <div class="lineup1">
-                    <img class="ellipse" src="foto/Ellipse 18.png" alt="">
+                    <img class="ellipse" src="<?php echo get_template_directory_uri()?>/foto/Ellipse 18.png" alt="">
                     <p class="NaamContainer">Jan van der Kooij <br> <span class="datum">12-10-2021</span> </p>
                 </div>
                 <div class="stars">
-                    <img class="StarSpecific" src="foto/Icon awesome-star.png" alt="Stars">
-                    <img class="StarSpecific" src="foto/Icon awesome-star.png" alt="Stars">
-                    <img class="StarSpecific" src="foto/Icon awesome-star.png" alt="Stars">
-                    <img class="StarSpecific" src="foto/Icon awesome-star.png" alt="Stars">
-                    <img class="StarSpecific" src="foto/Icon awesome-star.png" alt="Stars">
+                    <img class="StarSpecific" src="<?php echo get_template_directory_uri()?>/foto/awesome-star.png" alt="Stars">
+                    <img class="StarSpecific" src="<?php echo get_template_directory_uri()?>/foto/awesome-star.png" alt="Stars">
+                    <img class="StarSpecific" src="<?php echo get_template_directory_uri()?>/foto/awesome-star.png" alt="Stars">
+                    <img class="StarSpecific" src="<?php echo get_template_directory_uri()?>/foto/awesome-star.png" alt="Stars">
+                    <img class="StarSpecific" src="<?php echo get_template_directory_uri()?>/foto/awesome-star.png" alt="Stars">
                 </div>
                 <p class="description">
                     Vandaag met mijn bedrijf deze workshop gevolgd en het is echt een aanrader, Mijn personeel vond het leerzaam en leuk. 
@@ -89,15 +89,15 @@
             </div>
             <div class="Block2">
                 <div class="lineup1">
-                    <img class="ellipse" src="foto/Ellipse 18.png" alt="">
+                    <img class="ellipse" src="<?php echo get_template_directory_uri()?>/foto/Ellipse 18.png" alt="">
                     <p class="NaamContainer">Dennis Bakker <br> <span class="datum">15-10-2021</span> </p>
                 </div>
                 <div class="stars">
-                    <img class="StarSpecific" src="foto/Icon awesome-star.png" alt="Stars">
-                    <img class="StarSpecific" src="foto/Icon awesome-star.png" alt="Stars">
-                    <img class="StarSpecific" src="foto/Icon awesome-star.png" alt="Stars">
-                    <img class="StarSpecific" src="foto/Icon awesome-star.png" alt="Stars">
-                    <img class="StarSpecific" src="foto/Icon awesome-star.png" alt="Stars">
+                    <img class="StarSpecific" src="<?php echo get_template_directory_uri()?>/foto/awesome-star.png" alt="Stars">
+                    <img class="StarSpecific" src="<?php echo get_template_directory_uri()?>/foto/awesome-star.png" alt="Stars">
+                    <img class="StarSpecific" src="<?php echo get_template_directory_uri()?>/foto/awesome-star.png" alt="Stars">
+                    <img class="StarSpecific" src="<?php echo get_template_directory_uri()?>/foto/awesome-star.png" alt="Stars">
+                    <img class="StarSpecific" src="<?php echo get_template_directory_uri()?>/foto/awesome-star.png" alt="Stars">
                 </div>
                 <p class="description">
                     Erg leuke workshop voor als je een actief dagje er op uit wilt.
@@ -106,15 +106,15 @@
             </div>
             <div class="Block3">
                 <div class="lineup1">
-                    <img class="ellipse" src="foto/Ellipse 18.png" alt="">
+                    <img class="ellipse" src="<?php echo get_template_directory_uri()?>/foto/Ellipse 18.png" alt="">
                     <p class="NaamContainer">Lisa van Veen <br> <span class="datum">12-10-2021</span> </p>
                 </div>
                 <div class="stars">
-                    <img class="StarSpecific" src="foto/Icon awesome-star.png" alt="Stars">
-                    <img class="StarSpecific" src="foto/Icon awesome-star.png" alt="Stars">
-                    <img class="StarSpecific" src="foto/Icon awesome-star.png" alt="Stars">
-                    <img class="StarSpecific" src="foto/Icon awesome-star.png" alt="Stars">
-                    <img class="StarSpecific" src="foto/Icon awesome-star.png" alt="Stars">
+                    <img class="StarSpecific" src="<?php echo get_template_directory_uri()?>/foto/awesome-star.png" alt="Stars">
+                    <img class="StarSpecific" src="<?php echo get_template_directory_uri()?>/foto/awesome-star.png" alt="Stars">
+                    <img class="StarSpecific" src="<?php echo get_template_directory_uri()?>/foto/awesome-star.png" alt="Stars">
+                    <img class="StarSpecific" src="<?php echo get_template_directory_uri()?>/foto/awesome-star.png" alt="Stars">
+                    <img class="StarSpecific" src="<?php echo get_template_directory_uri()?>/foto/awesome-star.png" alt="Stars">
                 </div>
                 <p class="description">
                     Toen mijn werk gever vertelde dat we een dagje er op uit zouden gaan 
@@ -157,7 +157,7 @@
                 </div>
                 <div class="card-image">
                     <a href="#">
-                        <img src="img/3.png" alt="Card Image">
+                        <img src="<?php echo get_template_directory_uri()?>/img/3.png" alt="Card Image">
                     </a>
                 </div>
             </div>

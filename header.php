@@ -11,14 +11,14 @@
 <body>
     <div id="slideout-menu">
         <ul>
-            <li><a href="#"><img src="img/eyemenu.png" alt="EyeMuseum menu"></a></li>
+            <li><a href="#"><img src="<?php echo get_template_directory_uri()?>/img/eyemenu.png" alt="EyeMuseum menu"></a></li>
         </ul>
     </div>
 
     <nav>
         <div id="logo-img">
             <a href="#">
-                <img src="img/logo.png" alt="EyeMuseum Logo">
+                <img src="<?php echo get_template_directory_uri()?>/img/logo.png" alt="EyeMuseum Logo">
             </a>
         </div>
         <ul>

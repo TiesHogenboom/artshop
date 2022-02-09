@@ -1,4 +1,3 @@
-bullshit
 
 <?php
     get_header();
